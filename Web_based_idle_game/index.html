@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respawn Idle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="xp-bars">
+        <div class="xp-bar"><span>Gathering: </span><div id="gathering-xp-bar"></div></div>
+        <div class="xp-bar"><span>Cooking: </span><div id="cooking-xp-bar"></div></div>
+        <div class="xp-bar"><span>Mining: </span><div id="mining-xp-bar"></div></div>
+        <div class="xp-bar"><span>Combat: </span><div id="combat-xp-bar"></div></div>
+        <div class="xp-bar"><span>Socialising: </span><div id="socialising-xp-bar"></div></div>
+    </div>
+
+    <div class="game-info">
+        <p>HP: <span id="hp">100</span> / <span id="max-hp">100</span></p>
+        <p>Food: <span id="food">10</span> / 25</p>
+        <p>Cooked Meals: <span id="cooked-meals">0</span> / 25</p>
+        <p>HP Drain: <span id="hp-drain">1</span></p>
+        <p>Survival Time: <span id="survival-time">0</span> sec</p>
+    </div>
+
+    <div class="jobs">
+        <button id="gather-food-btn">Gather Food</button>
+        <div class="progress-bar"><div id="gather-progress"></div></div>
+
+        <button id="cook-meal-btn">Cook Meal</button>
+        <div class="progress-bar"><div id="cook-progress"></div></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

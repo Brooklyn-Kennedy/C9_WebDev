@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+.game-info p {
+    font-size: 18px;
+}
+
+.jobs button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.progress-bar {
+    width: 200px;
+    height: 20px;
+    background: #ddd;
+    margin: 10px auto;
+    position: relative;
+}
+
+.progress-bar div {
+    height: 100%;
+    background: #4caf50;
+    width: 0%;
+}
+
+.xp-bars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.xp-bar {
+    width: 150px;
+    height: 20px;
+    background: #ddd;
+    margin: 0 10px;
+    position: relative;
+}
+
+.xp-bar span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.xp-bar div {
+    height: 100%;
+    background: #ff9800;
+    width: 0%;
+}
